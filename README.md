@@ -1,10 +1,12 @@
-<h1 align="center"> Alkemy Library </h1>
+<h1 align="start"> Alkemy Library </h1>
 
-El proyecto fue desarrollado en equipo como parte del programa de Aceleración de Talento Fueguino basado en la tecnologia SQL+NODE.
+El proyecto fue desarrollado en equipo como parte del programa de Aceleración de Talento Fueguino basado en las tecnologías SQL+NODE.
 
 Alkemy Library consiste en una API de gestión de datos que permite a sus usuarios realizar operaciones de consulta y modificación de datos.
 
-<h3> Características principales: </h3>
+Duranto todo el transcuro del desarrollo de la api utilizamos la metodología ágil **Scrum** y el software de gestión de proyectos _Jira_ para gestionar los tickets asignados a cada integrante.
+
+<h2> Características principales: </h2>
 
 - Registro y Autenticación:
 Los usuarios pueden registrarse y autenticarse en la plataforma de manera segura.
@@ -26,14 +28,14 @@ Los Administradores tienen un control completo sobre los diversos aspectos relac
 Añadir o eliminar libros, autores, géneros y más.
 
 
-<h3> Características adicionales: </h3>
+<h2> Características adicionales: </h2>
 
 -  Sistema de backup:
 - - Automatizado: El sistema realiza una copia automática de la base de datos y la sube a la nube.
 - - Manual: Los administradores pueden correr un comando para forzar la copia de seguridad de la base de datos en el caso de ser necesario.
 
 
-<h3> Tecnologías Utilizadas: </h3>
+<h2> Tecnologías Utilizadas: </h2>
 
 - Bcrypt: v5.1.1
 - Chai: v4.3.10
@@ -61,10 +63,35 @@ Añadir o eliminar libros, autores, géneros y más.
 - Yamljs: v0.3.0
 
 
-<h3> Herramientas Adicionales: </h3>
+<h2> Herramientas Adicionales: </h2>
 
 - Herramientas de Prueba: Postman para el manejo de endpoints.
-- Herramientas de Documentación: Swagger. La documentación de la API se ha realizado utilizando Swagger.
+- Herramientas de Documentación: Swagger.
 
 
-Instalacion del proyecto
+<h2> Instalacion del proyecto: </h2>
+
+<h3> 1) Clonar el repositorio de github: </h3>
+
+- _git clone_ https://github.com/jona-ese/alkemy-library.git 
+
+<h3> 2) Instalar las dependencias necesarias: </h3>
+  
+- Ejecutar el comando **_npm install_**.
+
+<h3> 3) Configurar las variables de entorno: </h3>
+
+- Crear un archivo _.env_ en la raíz del proyecto.
+- Añadir las variables necesarias indicadas en _.env.example_.
+  
+<h3> 4) Comandos principales: </h3>
+
+- **_npm start_**: Inicializar la aplicación.
+- **_npm run backup_**: Ejecutar backup de la base de datos. 
+- **_npm run test_**: Ejecutar los tests.
+
+<h2>Estado: </h2>
+
+-  Proyecto finalizado en 3 sprints.
+
+
